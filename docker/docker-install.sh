@@ -37,6 +37,3 @@ elif [ $1 = 'always' ]; then
   systemctl start docker;
   systemctl enable docker;
 fi
-
-    echo "Failed"
-fi
