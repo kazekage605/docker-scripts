@@ -29,7 +29,7 @@ echo "docker的版本"
 docker -v
 
 # docker运行命令
-if [ $1 == 'start' ]; then
+if [ $1 = 'start' ]; then
     echo "docker start";
     systemctl start docker;
 elif [ $1 = 'always' ]; then
